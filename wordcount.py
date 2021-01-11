@@ -16,12 +16,12 @@ def word_counts(text_file):
         # key = word
         # value = counted_words
 
-        print(f'{key} {value}')
-    return counted_words
+        # print(f'{key} {value}')
+    return f'{key} {value}'
 
     
     
-word_counts('test.txt')
+word_counts('twain.txt')
 
 
 
